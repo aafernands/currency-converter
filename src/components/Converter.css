@@ -1,8 +1,25 @@
-.root {
-	max-width: 300px;
+.MuiCardContent-root {
+	max-width: 600px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    align-items: center;
 }
 .converter {
-	background-color: #282d33;
+	background-color: rgb(240, 240, 132);
+	color: rgb(90, 88, 88);
+    padding: 40px;
+}
+
+.input {
 	color: white;
+	width: 100%;
+}
+
+.button {
+	background-color: gray !important;
+	padding: 10px !important;
+	margin: 10px !important;
+	width: 120px !important;
 }

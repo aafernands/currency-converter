@@ -39,13 +39,14 @@ export default class Converter extends Component {
 	render() {
 		return (
 			<div>
-				<Card className="root">
+				<Card>
 					<CardActionArea>
 						<CardContent className="converter">
 							<h2>
 								{this.props.currencyA} to {this.props.currencyB}
 							</h2>{" "}
 							<TextField
+								className="input"
 								id="outlined-basic"
 								label="Enter value to convert"
 								variant="outlined"
@@ -56,6 +57,7 @@ export default class Converter extends Component {
 								}}
 							/>
 							<Button
+								className="button"
 								type="button"
 								variant="contained"
 								color="secondary"
