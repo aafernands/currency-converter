@@ -1,0 +1,8 @@
+.root {
+	max-width: 300px;
+	text-align: center;
+}
+.converter {
+	background-color: #282d33;
+	color: white;
+}
